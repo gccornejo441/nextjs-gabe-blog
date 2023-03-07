@@ -19,14 +19,29 @@ export default function Home({ posts }) {
   return (
     <>
       <PageSEO title={siteMetadata.title} description={siteMetadata.description} />
+      <section className="bg-oliveGreen">
+        <div className="mx-auto max-w-6xl px-4 py-16 sm:px-6 lg:px-8">
+          <div className="text-center">
+            <h1 className="text-4xl font-extrabold text-forestGreen600 sm:text-5xl">
+              Welcome to my Blog
+            </h1>
+            <p className="mt-4 text-lg text-gray-600">{siteMetadata.description}</p>
+            <div className="mt-6">
+              <a
+                href="#"
+                className="inline-block rounded-lg bg-desertSand px-4 py-3 font-medium text-white hover:bg-forestGreen600 hover:text-white"
+              >
+                Get started
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
       <div className="divide-y divide-gray-200 dark:divide-gray-700">
         <div className="space-y-2 pt-6 pb-8 md:space-y-5">
-          <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
+          <h2 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
             Latest
-          </h1>
-          <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
-            {siteMetadata.description}
-          </p>
+          </h2>
         </div>
         <ul className="divide-y divide-gray-200 dark:divide-gray-700">
           {!posts.length && 'No posts found.'}
@@ -66,7 +81,7 @@ export default function Home({ posts }) {
                       <div className="text-base font-medium leading-6">
                         <Link
                           href={`/blog/${slug}`}
-                          className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
+                          className="text-forestGreen500 hover:text-forestGreen600 dark:hover:text-forestGreen400"
                           aria-label={`Read "${title}"`}
                         >
                           Read more &rarr;
@@ -84,7 +99,7 @@ export default function Home({ posts }) {
         <div className="flex justify-end text-base font-medium leading-6">
           <Link
             href="/blog"
-            className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
+            className="text-forestGreen500 hover:text-forestGreen600 dark:hover:text-forestGreen400"
             aria-label="all posts"
           >
             All Posts &rarr;

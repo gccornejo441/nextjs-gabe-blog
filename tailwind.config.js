@@ -30,6 +30,16 @@ module.exports = {
       colors: {
         primary: colors.teal,
         gray: colors.neutral,
+        oliveGreen: '#A7A88A',
+        forestGreen50: '#DCE2D7',
+        forestGreen100: '#C1CFBC',
+        forestGreen200: '#A4BBA2',
+        forestGreen300: '#87A78A',
+        forestGreen400: '#6D9378',
+        forestGreen500: '#547F67',
+        forestGreen600: '#3A6A59',
+        desertSand: '#D6C18A',
+        sageGreen: '#B9C8BC',
       },
       typography: (theme) => ({
         DEFAULT: {
