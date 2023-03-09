@@ -1,10 +1,8 @@
 const projectsData = [
   {
-    title: 'A Search Engine',
-    description: `What if you could look up any information in the world? Webpages, images, videos
-    and more. Google has many features to help you find exactly what you're looking
-    for.`,
-    imgSrc: '/static/images/google.png',
+    title: 'Jobbox',
+    description: `Jobbox was created to assist people in creating free and professional resumes.`,
+    imgSrc: '/static/images/jobbox.png',
     href: 'https://www.google.com',
   },
   {

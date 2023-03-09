@@ -1,16 +1,16 @@
 ---
-name: Tails Azimuth
-avatar: /static/images/avatar.png
-occupation: Professor of Atmospheric Science
-company: Stanford University
-email: address@yoursite.com
-twitter: https://twitter.com/Twitter
-linkedin: https://www.linkedin.com
-github: https://github.com
+name: Gabe Cornejo
+avatar: /static/images/gabe-with-sunglasses.png
+occupation: SWE
+company: WWD
+email: gaberunsalot@gmail.com
+twitter: https://twitter.com/gcornejo555
+linkedin: https://www.linkedin.com/in/gabecornejo/
+github: https://github.com/gccornejo441
 ---
 
-Tails Azimuth is a professor of atmospheric sciences at the Stanford AI Lab. His research interests includes complexity modelling of tailwinds, headwinds and crosswinds.
+I am a highly motivated businessman with a track record of turning ideas into reality. He supports businesses and teams in making connections and taking action.
 
-He leads the clean energy group which develops 3D air pollution-climate models, writes differential equation solvers, and manufactures titanium plated air ballons. In his free time he bakes raspberry pi.
+For single page applications, start-ups, and dreamers, he is now trying to unlock the power of web programming and design. Through their website, he and the WebWorks Dream team accomplish this. www.WebWorksDreams.com
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+Leading teams, igniting change, starting things off, innovating, strategy, selling ideas, assembling teams, blogging, and fulfilling goals are just a few of Gabriel's strengths.

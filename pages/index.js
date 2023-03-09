@@ -35,12 +35,11 @@ export default function Home({ posts }) {
             </h1>
             <p className="mt-4 text-lg text-gray-800">{siteMetadata.description}</p>
             <div className="mt-6">
-              <a
-                href="#"
-                className="inline-block rounded-lg bg-desertSand px-4 py-3 font-medium text-white hover:bg-forestGreen600 hover:text-white"
-              >
-                Get started
-              </a>
+              <Link href="/blog">
+                <a className="inline-block rounded-lg bg-desertSand px-4 py-3 font-medium text-white hover:bg-forestGreen600 hover:text-white">
+                  Get started
+                </a>
+              </Link>
             </div>
           </div>
         </div>
