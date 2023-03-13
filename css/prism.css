@@ -32,7 +32,7 @@
 }
 
 .highlight-line {
-  @apply -mx-4 border-l-4 border-primary-500  bg-gray-700 bg-opacity-50;
+  @apply -mx-4 border-l-4 border-forestGreen500 bg-gray-700 bg-opacity-50;
 }
 
 .line-number::before {
@@ -76,7 +76,7 @@
 .token.tag,
 .token.operator,
 .token.keyword {
-  color: rgb(127, 219, 202);
+  color: rgb(83, 184, 165);
 }
 
 .token.boolean {
